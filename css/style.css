@@ -1,0 +1,276 @@
+/* 
+azul logo: #003092
+celeste: #00879E
+amarillo: #FFAB5B
+blanco: #FFF2DB
+blanco: #FBE4D6
+azul logo: #261FB3
+#161179
+azul oscuro: #0C0950
+*/
+/*1 rem: 16px pero podemos hacer que mida 10px */
+
+/*reset*/
+*{margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+/*  font-family: "Commissioner", sans-serif;*/
+
+html{font-family:"Commissioner", sans-serif;
+background-color:#FFF2DB ;}
+ 
+
+
+/*----------------------------------HEADER------------------------------------------*/ 
+header{background-color: #FFAB5B;
+display: flex;
+flex-direction: row;
+position: sticky; /*esto permite que la barra de navegacion aparezca siempre aunq scrollemos*/
+top: 0px; /*esto permite que la barra de navegacion quede siempre arriba*/
+justify-content: space-between;
+align-items: center;}
+
+header img{width: 100px;
+margin-left: 30px;}
+
+nav{ width: 40%;}
+
+header ul{
+height: 100%;
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 3%;}
+
+header a{color: #00879E;
+text-decoration: none;
+}
+
+.titulos{ color:#003092 ;
+    font-family: "Commissioner", sans-serif;
+    font-size:xx-large;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;}
+
+
+.subtitulo{
+    color: #00879E;
+    font-size: 2rem;}
+
+    section {
+        color: #FFAB5B; }
+
+
+.destacados img {width: 20rem;}
+.destacados h1{font-size: 2.5rem;
+text-align: center;}
+.destacados  h2{font-size: 2rem;}
+.destacados p{font-size: 1.5rem;}
+
+.tienda h1{font-size: 2.5rem;
+text-align: center;}
+
+.originals h1 {font-size: 2.5rem;
+text-align: center;}
+.originals img{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 20rem;}
+
+
+.grid{display: grid;
+    grid-template-columns: repeat(1, 1fr);}
+
+
+/*--------------------------------CARROUSEL-------------------*/
+.carousel {
+    width: 99.4vw;       /* 100% del ancho del viewport */
+    max-width: 99vw;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  }
+  
+  /* Hace que cada slide (item) también ocupe todo el ancho */
+  .carousel-item {
+    width: 100%;
+  }
+  
+  /* Ajusta las imágenes del carousel para que llenen la pantalla */
+  .carousel-item img {
+    width: 100%;
+    height: 89vh;       /* 100% de la altura del viewport */
+    object-fit: cover;   /* Hace que la imagen se ajuste sin deformarse */
+  }
+  
+  /* Clase para los textos en negro */
+  .letranegra {
+    color: black !important; /* Garantiza que el texto sea negro */
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*--------------------------SERVICIOS--------------------------------*/
+.caja{
+    width: 200px;
+    height: 100px;
+background-color:  #FFAB5B;
+border: 2px solid #FFF2DB;
+text-align: center;
+line-height: 100px;
+margin: 10px;}
+
+.quecosa {display:flex; /*activa flexbox*/
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items: center;
+padding: 10px;}
+
+
+
+
+
+
+
+/*--------------------------------NOSOTROS------------------------------------*/
+.grid img{
+    width: 100%;
+    height: 90%;
+    border-radius: 3%;
+    box-shadow: 10px 11px 1px -2px rgba(0,0,0,0.54);}
+
+.grid p{
+    font-size:100%;
+    text-align: justify;
+    margin: 3%;
+}
+
+.grid{display: grid;
+grid-template-areas:
+"titulo titulo titulo"
+"nosotros historia1 historia1"
+"historia2 hijo historia3"
+"tienda tienda tienda";
+
+grid-template-columns: 1.2fr 1fr 1.2fr;
+grid-template-rows: 70px 280px 330px 600px;
+/*centrar la grilla como caja cerrada*/
+justify-content:center;
+margin: 3%;
+/*horizontal*/
+justify-items: center;
+/*vertical*/
+align-items: center;}
+
+
+
+.titulo{grid-area: titulo;}
+.historia1 {grid-area: historia1;}
+.historia2 {grid-area: historia2;}
+.historia3 {grid-area: historia3;}
+.nosotros {grid-area: nosotros;}
+.hijo {grid-area: hijo;}
+.local {grid-area: tienda;} 
+
+
+
+/*-----------------------------PRODUCTOS----------------------------------------*/
+/*.tazas {display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;}
+.tazas img{
+    width: 220px;
+    height: 300px;}*/
+   
+
+
+
+
+/*-----------------------------------FOOTER---------------------------------------*/
+footer{ background-color:#FFAB5B;
+color: black;
+font-weight: bolder;}
+.icon{width: 2rem;}
+.botonwhats{width: 100px;
+position: fixed;
+bottom: 70px;
+right: 20px;}
+
+
+
+
+
+
+
+
+/*-----------------------------------RESPONSIVE-----------------------------------------*/
+/*CELULAR
+/*index
+@media (max-width: 480px){
+header{flex-direction: column;
+}
+header img{width: 50px;
+margin-left: 0px;}
+
+nav{width: 100%;}
+
+header ul{
+    margin: 0%;
+}
+
+
+/*nosotros
+.grid{grid-template-areas:
+    "titulo"
+    "historia1"
+    "nosotros"
+    "historia2"
+    "hijo"
+    "historia3";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px}
+
+.local {display: none;}
+    
+    
+
+
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET*/
+@media (mix-width: 481px) and (max-width: 769px){}

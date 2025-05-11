@@ -1,0 +1,40 @@
+.grid{display: grid;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "nosotros historia1 historia1"
+    "historia2 hijo historia3"
+    "tienda tienda tienda";
+
+    grid-template-columns: 1.2fr 1fr 1.2fr;
+    grid-template-rows: 70px 280px 330px 600px;
+    justify-content:center;
+    margin: 3%;
+    justify-items: center;
+    align-items: center;
+
+    .titulo{grid-area: titulo;}
+    .historia1 {grid-area: historia1;}
+    .historia2 {grid-area: historia2;}
+    .historia3 {grid-area: historia3;}
+    .nosotros {grid-area: nosotros;}
+    .hijo {grid-area: hijo;}
+    .local {grid-area: tienda;} 
+
+    h1 {color: #FFAB5B;}
+    p{
+    font-size:120%;
+    text-align: justify;
+    margin: 3%;
+    color: #FFAB5B;}
+
+    img{
+    width: 100%;
+    height: 90%;
+    border-radius: 3%;
+    box-shadow: 10px 11px 1px -2px rgba(0,0,0,0.54);}
+
+}
+
+
+
+

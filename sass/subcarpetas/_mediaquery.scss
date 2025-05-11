@@ -1,0 +1,36 @@
+// index
+
+header{flex-direction: column;
+justify-content: center;
+
+    img{width: 50px;}
+    nav{width: 100%;}
+    ul{justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+        a{font-size: 9px ;}}
+}
+
+
+//nosotros
+
+.grid{grid-template-areas:
+    "titulo"
+    "historia1"
+    "nosotros"
+    "historia2"
+    "hijo"
+    "historia3";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px
+
+    local {display: none;}}
+
+
+//productos
+
+.galeria {margin: 0%;
+justify-content: flex-start;
+
+    img{width: 100px;}}

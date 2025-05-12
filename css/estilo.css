@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
 header {
   flex-direction: column;
   justify-content: center;
@@ -30,6 +31,17 @@ header ul a {
 }
 .galeria img {
   width: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Commissioner", sans-serif;
+  background-color: #FFF2DB;
 }
 
 header {

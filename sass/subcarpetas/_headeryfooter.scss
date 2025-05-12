@@ -1,4 +1,17 @@
 @use"../subcarpetas/v";
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+html{font-family:"Commissioner", sans-serif;
+background-color:#FFF2DB ;}
+
+
+
 header {background-color: v.$amarillo;
     display: flex;
     flex-direction: row;

@@ -15,8 +15,8 @@ background-color:#FFF2DB ;}
 header {background-color: v.$amarillo;
     display: flex;
     flex-direction: row;
-    position: sticky; /*esto permite que la barra de navegacion aparezca siempre aunq scrollemos*/
-    top: 0px; /*esto permite que la barra de navegacion quede siempre arriba*/
+    position: sticky; 
+    top: 0px; 
     justify-content: space-between;
     align-items: center;
     img{width: 100px;

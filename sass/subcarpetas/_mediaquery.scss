@@ -3,11 +3,17 @@
 header{flex-direction: column;
 justify-content: center;
 
-    img{width: 50px;}
-    nav{width: 100%;}
-    ul{justify-content: space-between;
+    img{width: 50px;
+    }
+
+    nav{width: 100%;
+    }
+
+    ul{display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 0%;
+
         a{font-size: 9px ;}}
 }
 

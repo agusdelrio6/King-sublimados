@@ -1,14 +1,14 @@
-@use"../subcarpetas/v";
+@use "./v";
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
 
+
+html{font-family:"Commissioner", sans-serif;
+background-color:#FFF2DB ;
+}
 
 *{margin: 0;
 padding: 0;
-box-sizing: border-box}
-
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
-
-html{font-family:"Commissioner", sans-serif;
-background-color:#FFF2DB ;}
+box-sizing: border-box;}
 
 
 
@@ -19,16 +19,16 @@ header {background-color: v.$amarillo;
     top: 0px; 
     justify-content: space-between;
     align-items: center;
-    img{width: 100px;
+    img{width: 120px;
         margin-left: 3%;}
 
-    nav{ width: 40%;
+    nav{ width: 50%;
         ul{
             list-style-type: none;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 3%;
+            margin: 5px;
         
             a{color: v.$celeste;
                 text-decoration: none;
@@ -45,7 +45,6 @@ header {background-color: v.$amarillo;
 footer{ background-color:#FFAB5B;
 color: black;
 font-weight: bolder;
-
     .icon{width: 2rem;}}
 
 .botonwhats{width: 100px;

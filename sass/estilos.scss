@@ -1,11 +1,12 @@
 @use "./subcarpetas/v";
-@use "./subcarpetas/mediaquery";
-@use "./subcarpetas/headeryfooter";
 @use "./subcarpetas/index";
+@use "./subcarpetas/headeryfooter";
 @use "./subcarpetas/nosotros";
 @use "./subcarpetas/contacto";
 @use "./subcarpetas/productos";
 @use "./subcarpetas/servicios";
+@use "./subcarpetas/mediaquery"
+
 
 
 

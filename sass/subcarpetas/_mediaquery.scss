@@ -1,44 +1,150 @@
-// index
-@media (max-width: 480px){
-header{flex-direction: column;
-justify-content: center;
+@media(max-width: 480px){
+  header {
+    flex-direction: column;
 
-    img{width: 50px;
+    img {
+      width: 70px;
     }
 
-    nav{width: 100%;
+    nav {width:100%;
+    
+       ul {margin: 0px;
+    
+        a{font-size:13px}
+    }}
+
+   
+  }
+
+  // Nosotros
+  .grid {
+    grid-template-areas:
+      "titulo"
+      "historia1"
+      "nosotros"
+      "historia2"
+      "hijo"
+      "historia3";
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 40px 130px 150px 120px 150px 80px;
+
+    .local {
+      display: none;
     }
+    
+    p {font-size: 12px;
+    margin: 1px;}
 
-    ul{display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0%;
+    img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 8px 1px -2px rgba(0,0,0,0.54);}
 
-        a{font-size: 9px ;}}
+  }
+
+  // Productos
+  .galeria {
+    justify-content: flex-start;
+
+    img {
+      width: auto;
+      height: 142px;
+    }
+  }
+
+
+//INICIO
+.carousel {width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  .carousel-item {
+        img {
+            width: 100%;
+            height: 100% 
+          } }
+    }
+  
+
+  //contacto 
+  .tienda{
+    iframe{height: 300px;
+  width: 400px;}}
+
+   
 }
 
 
-//nosotros
-
-.grid{grid-template-areas:
-    "titulo"
-    "historia1"
-    "nosotros"
-    "historia2"
-    "hijo"
-    "historia3";
-
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px
-
-    local {display: none;}}
 
 
-//productos
 
-.galeria {margin: 0%;
-justify-content: flex-start;
 
-    img{width: 100px;}}
+
+
+@media (min-width:481px) and (max-width: 769px){
+
+ header {
+    flex-direction: column;
+
+    img {
+      width: 70px;
+    }
+
+    nav {width:100%;
+    
+       ul {margin: 0px;
+    
+        a{font-size:13px}
+    }}
+
+   
+  }
+
+  // Nosotros
+  .grid {
+    grid-template-areas:
+      "titulo"
+      "historia1"
+      "nosotros"
+      "historia2"
+      "hijo"
+      "historia3";
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 40px 130px 150px 120px 150px 80px;
+
+    .local {
+      display: none;
+    }
+    
+    p {font-size: 12px;
+    margin: 1px;}
+
+    img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 8px 1px -2px rgba(0,0,0,0.54);}
+
+  }
+
+  // Productos
+  .galeria {
+    justify-content: flex-start;
+
+    img {
+      width: auto;
+      height: 142px;
+    }
+  }
+
+
+
+
+  //contacto 
+  .tienda{
+    iframe{height: 300px;
+  width: 400px;}}
+
+
 
 }

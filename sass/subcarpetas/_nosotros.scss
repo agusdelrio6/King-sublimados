@@ -5,8 +5,8 @@
     "historia2 hijo historia3"
     "tienda tienda tienda";
 
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    grid-template-rows: 70px 300px 300px 700px;
+    grid-template-columns: 2.5fr 2fr 2fr;
+    grid-template-rows: 80px 480px 480px 900px;
     justify-content:center;
     margin: 3%;
     justify-items: center;
@@ -20,9 +20,10 @@
     .hijo {grid-area: hijo;}
     .local {grid-area: tienda;} 
 
-    h1 {color: #FFAB5B;}
+    h1 {color: #FFAB5B;
+    font-size: 50px;}
     p{
-    font-size:25px;
+    font-size:30px;
     text-align: justify;
     margin:2%;
     color: #FFAB5B;}

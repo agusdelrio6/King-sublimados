@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
 .carousel {
-  width: 100vw; /* 100% del ancho del viewport */
+  width: 99, 5vw; /* 100% del ancho del viewport */
   margin: 0px;
   padding: 0%;
-  font-size: 50px;
+  font-size: 60px;
 }
 .carousel .carousel-item {
   width: 100%;
@@ -38,23 +38,23 @@ header {
   align-items: center;
 }
 header img {
-  width: 120px;
+  width: 100px;
   margin-left: 3%;
 }
 header nav {
-  width: 50%;
+  width: 40%;
+  margin-right: 50px;
 }
 header nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px;
 }
 header nav ul a {
   color: #00879E;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 footer {
@@ -63,7 +63,7 @@ footer {
   font-weight: bolder;
 }
 footer .icon {
-  width: 2rem;
+  width: 3rem;
 }
 
 .botonwhats {
@@ -76,8 +76,8 @@ footer .icon {
 .grid {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "nosotros historia1 historia1" "historia2 hijo historia3" "tienda tienda tienda";
-  grid-template-columns: 1.5fr 1fr 1.5fr;
-  grid-template-rows: 70px 300px 300px 700px;
+  grid-template-columns: 2.5fr 2fr 2fr;
+  grid-template-rows: 80px 480px 480px 900px;
   justify-content: center;
   margin: 3%;
   justify-items: center;
@@ -106,9 +106,10 @@ footer .icon {
 }
 .grid h1 {
   color: #FFAB5B;
+  font-size: 50px;
 }
 .grid p {
-  font-size: 25px;
+  font-size: 30px;
   text-align: justify;
   margin: 2%;
   color: #FFAB5B;
@@ -171,24 +172,25 @@ footer .icon {
   margin: 40px;
 }
 .galeria img {
-  width: 350px;
+  width: 600px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 20%;
 }
 .galeria img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .sublimado {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 0%;
   justify-content: center;
 }
 .sublimado .textoarriba {
   position: relative;
-  width: 1000px;
-  overflow: hidden;
+  width: 100%;
+  overflow-y: hidden;
+  margin-bottom: 5%;
 }
 .sublimado .textoarriba h1 {
   position: absolute;
@@ -196,13 +198,13 @@ footer .icon {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 30px;
+  font-size: 400%;
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 .sublimado .textoarriba img {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -225,14 +227,17 @@ footer .icon {
   }
   .grid {
     grid-template-areas: "titulo" "historia1" "nosotros" "historia2" "hijo" "historia3";
-    grid-template-columns: 1.5fr;
-    grid-template-rows: 40px 130px 150px 120px 150px 80px;
+    grid-template-columns: 2fr;
+    grid-template-rows: 50px 335px 300px 300px 180px 150px;
   }
   .grid .local {
     display: none;
   }
+  .grid h1 {
+    font-size: 30px;
+  }
   .grid p {
-    font-size: 12px;
+    font-size: 18px;
     margin: 1px;
   }
   .grid img {
@@ -248,19 +253,26 @@ footer .icon {
     height: 142px;
   }
   .carousel {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
     font-size: 50px;
   }
   .carousel .carousel-item img {
     width: 100%;
-    height: 100%;
+    height: 600px;
+  }
+  .tienda p {
+    font-size: 18px;
+    margin: 15px;
   }
   .tienda iframe {
     height: 300px;
     width: 400px;
+  }
+  .sublimado .textoarriba h1 {
+    font-size: 30px;
   }
 }
 @media (min-width: 481px) and (max-width: 769px) {

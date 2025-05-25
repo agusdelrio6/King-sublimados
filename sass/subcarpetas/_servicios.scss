@@ -1,26 +1,27 @@
 .sublimado{
     display: flex;
-flex-wrap: wrap;
-gap: 20px;
-justify-content: center;
+    flex-wrap: wrap;
+    gap: 0%;
+    justify-content: center;
 
 
     .textoarriba {position:relative;
-    width:1000px;
-    overflow:hidden;
+    width:100%;
+    overflow-y: hidden;
 
         h1 {position:absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-size: 30px;
+        font-size: 400%;
         font-weight: bold;
         text-align: center;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);}
+        
     
-        img{width: 100vw;
+        img{width: 100%;
         height: auto;
-        display: block;}}
-
+        display: block;}
+        margin-bottom: 5%;}
 }

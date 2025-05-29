@@ -214,16 +214,17 @@ footer .icon {
     flex-direction: column;
   }
   header img {
-    width: 70px;
+    width: 50px;
   }
   header nav {
     width: 100%;
+    margin: 0%;
   }
   header nav ul {
     margin: 0px;
   }
   header nav ul a {
-    font-size: 13px;
+    font-size: 10px;
   }
   .grid {
     grid-template-areas: "titulo" "historia1" "nosotros" "historia2" "hijo" "historia3";
@@ -250,7 +251,7 @@ footer .icon {
   }
   .galeria img {
     width: auto;
-    height: 142px;
+    height: 100px;
   }
   .carousel {
     width: 100%;
@@ -277,31 +278,30 @@ footer .icon {
 }
 @media (min-width: 481px) and (max-width: 769px) {
   header {
+    display: flex;
     flex-direction: column;
   }
   header img {
-    width: 70px;
+    width: 67px;
   }
   header nav {
     width: 100%;
+    margin-right: 0px;
   }
   header nav ul {
-    margin: 0px;
+    margin: 8px;
   }
   header nav ul a {
-    font-size: 13px;
+    font-size: 15px;
   }
   .grid {
-    grid-template-areas: "titulo" "historia1" "nosotros" "historia2" "hijo" "historia3";
+    grid-template-areas: "titulo" "historia1" "nosotros" "historia2" "hijo" "historia3" "tienda";
     grid-template-columns: 1.5fr;
-    grid-template-rows: 40px 130px 150px 120px 150px 80px;
-  }
-  .grid .local {
-    display: none;
+    grid-template-rows: 40px 170px 165px 150px 150px 100px 300px;
   }
   .grid p {
-    font-size: 12px;
-    margin: 1px;
+    font-size: 15px;
+    margin: 0.5spx;
   }
   .grid img {
     width: 100%;
@@ -313,7 +313,7 @@ footer .icon {
   }
   .galeria img {
     width: auto;
-    height: 142px;
+    height: 190px;
   }
   .tienda iframe {
     height: 300px;

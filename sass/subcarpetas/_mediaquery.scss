@@ -3,14 +3,15 @@
     flex-direction: column;
 
     img {
-      width: 70px;
+      width: 50px;
     }
 
-    nav {width:100%;
+    nav {width:100%;  
+        margin: 0%;
     
        ul {margin: 0px;
     
-        a{font-size:13px}
+        a{font-size:10px}
     }}
 
    
@@ -31,6 +32,7 @@
       .local {
       display: none;
       }
+      
       h1{font-size: 30px;}
       p {font-size: 18px;
         margin: 1px;}
@@ -49,7 +51,7 @@
 
     img {
       width: auto;
-      height: 142px;
+      height: 100px;
     }
   }
 
@@ -95,18 +97,19 @@
 
 @media (min-width:481px) and (max-width: 769px){
 
- header {
+ header {display: flex;
     flex-direction: column;
 
     img {
-      width: 70px;
+      width: 67px;
     }
 
     nav {width:100%;
+        margin-right:0px;
+
+       ul {margin: 8px;
     
-       ul {margin: 0px;
-    
-        a{font-size:13px}
+        a{font-size: 15px}
     }}
 
    
@@ -120,16 +123,14 @@
       "nosotros"
       "historia2"
       "hijo"
-      "historia3";
-    grid-template-columns: 1.5fr;
-    grid-template-rows: 40px 130px 150px 120px 150px 80px;
+      "historia3"
+      "tienda";
 
-    .local {
-      display: none;
-    }
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 40px 170px 165px 150px 150px 100px 300px;
     
-    p {font-size: 12px;
-    margin: 1px;}
+    p {font-size: 15px;
+    margin: 0.5spx;}
 
     img{
     width: 100%;
@@ -144,7 +145,7 @@
 
     img {
       width: auto;
-      height: 142px;
+      height: 190px;
     }
   }
 
